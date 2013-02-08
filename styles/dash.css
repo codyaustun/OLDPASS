@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document 
+   Made by Cody Coleman
+   IAP 2011
+   for 6.470
+*/
+
+#col1{
+	text-align: center;
+	float:left;
+	width: 350px;
+	margin-left: 100px;
+	overflow: hidden;
+	margin-right: 25px;
+}
+
+#col2{
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 25px;
+	width: 350px;
+	overflow: hidden;
+}
+
+#col1 h2, #col2 h2{
+	padding: 0px;
+	margin: 0px;
+	color: rgba(183, 92, 61, 1)
+}
+
+.dashNavBox{
+	width: 346;
+	max-height: 400px;
+	background-color: rgba(183, 92, 61, 1);
+	border: rgba(183, 92, 61, 1) solid 2px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.dashNavBox ul{
+	list-style-type: none;
+	padding:0px;
+}
+
+.dashNavBox ul li{
+	
+}
+
+.dash-link{
+	width: 100%;	
+	text-align: center;
+	display:block;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+	height: 30px;
+}
+
+.dash-link:hover, .current > a{
+	background-color: #ffffff;
+	color: rgba(183, 92, 61, 1);
+	font-size: 25px;
+}
